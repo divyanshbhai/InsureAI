@@ -49,3 +49,12 @@ InsurAI simplifies the insurance process, making it faster, easier, and more acc
 
 ##  User DataBase
 ![Untitled design](https://github.com/user-attachments/assets/51fa8357-d13a-49a4-ba66-024ae8fc6be4)
+
+
+
+##  Demo Video
+
+
+https://github.com/user-attachments/assets/98a31cb0-c09b-49c1-bd5f-829f2bb6e80f
+
+
