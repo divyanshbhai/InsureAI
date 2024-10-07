@@ -1,4 +1,4 @@
-const axios = require('axios'); // Ensure you have axios installed
+const axios = require('axios');
 
 async function getAI(question, chatId = "", sender = "test") {
     const url = "https://api.dify.ai/v1/chat-messages";
@@ -23,10 +23,10 @@ async function getAI(question, chatId = "", sender = "test") {
         const answer = responseData.answer;
         const conversationId = responseData.conversation_id;
 
-        return { answer, conversationId }; // Return only the relevant data
+        return { answer, conversationId };
     } catch (error) {
         console.error('Error sending message:', error);
-        throw error; // Rethrow error for further handling
+        throw error;
     }
 }
 
