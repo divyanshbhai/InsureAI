@@ -1,6 +1,5 @@
-// index.js
-const connectDB = require('./db'); // Import the DB connection
-require('./whatsapp.js'); // Initialize WhatsApp integration
+const connectDB = require('./db');
+require('./whatsapp.js');
 
-// Connect to MongoDB
+
 connectDB();
