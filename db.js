@@ -1,11 +1,9 @@
-// db.js
 const mongoose = require('mongoose');
 
 const connectDB = async () => {
     try {
-        // Replace the connection string with your own
-        const uri = 'mongodb://127.0.0.1:27017/insurai'; // For local MongoDB
-        // const uri = 'your-atlas-connection-string'; // For MongoDB Atlas
+        const uri = 'mongodb://127.0.0.1:27017/insurai';
+        // const uri = 'your-atlas-connection-string'
         await mongoose.connect(uri, {
             useNewUrlParser: true,
             useUnifiedTopology: true,
